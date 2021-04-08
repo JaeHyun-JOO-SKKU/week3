@@ -16,7 +16,7 @@ html, body{
 
 .wrapper{
     display: flex;
-    width: 70%;
+    width: 90%;
     justify-content: space-around;
 }
 
