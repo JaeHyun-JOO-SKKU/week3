@@ -120,7 +120,7 @@ html, body{
     transform: translateY(550px);
     color: #fff;
     position: relative;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -128,4 +128,43 @@ html, body{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+}
+
+.article{
+    background-color: #fff;
+}
+
+.profile h1, ul {
+    font-family: sans-serif;
+    color: #d6ac22;
+}
+
+.profile hr {
+    margin: 0 30px;
+}
+
+.profile {
+    background-color: rgb(102, 102, 102,0.5);
+    border-top: 10px solid #d6ac22;
+    border-bottom: 10px solid #d6ac22;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    transform: translateY(30px);
+}
+
+.profile-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 80px;
+    margin-top: -50px;
+}
+
+.text{
+    color: white;
+    text-align: left;
+    font-size: 1.2em;
+    list-style: none;
 }
